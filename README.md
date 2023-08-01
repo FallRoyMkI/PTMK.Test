@@ -1,4 +1,4 @@
-Загрузить Microsoft.Data.SqlClient.SNI.dll, PTMK.exe, appsettings.json
+Загрузить Microsoft.Data.SqlClient.SNI.dll, PTMK.exe, appsettings.json из https://github.com/FallRoyMkI/PTMK.Test/tree/master/Build
 Для покдючения к базе надо поменять строку подключения в appsettings.json 
 Через PowerShell запустить PTMK.exe, передав туда номер команды.
 
