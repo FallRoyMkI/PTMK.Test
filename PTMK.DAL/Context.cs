@@ -1,5 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using PTMK.Models;
 using PTMK.Models.Entities;
 
 namespace PTMK.DAL;
@@ -14,6 +13,6 @@ public class Context : DbContext
     }
     protected override void OnConfiguring(DbContextOptionsBuilder builder)
     {
-        builder.UseSqlServer(ConnectionString.ConStr, builder => builder.EnableRetryOnFailure());
+        builder.UseSqlServer(_conStr, builder => builder.EnableRetryOnFailure());
     }
 }

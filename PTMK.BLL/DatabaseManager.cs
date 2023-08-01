@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using PTMK.DAL;
 using PTMK.Models;
 using System.Data;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 
 namespace PTMK.BLL;
 
@@ -10,11 +11,13 @@ public class DatabaseManager
 {
     private readonly DataTable _personInfoTable = new("PersonInfo");
     private readonly Context _context;
+    private readonly string _conStr;
 
 
-    public DatabaseManager(Context context)
+    public DatabaseManager(Context context, string connectionString)
     {
         _context = context;
+        _conStr = connectionString;
     }
 
     public void InitialMigration()
@@ -117,7 +120,7 @@ public class DatabaseManager
     private void WriteToServer()
     {
         _personInfoTable.AcceptChanges();
-        using (SqlConnection connection = new SqlConnection(ConnectionString.ConStr))
+        using (SqlConnection connection = new SqlConnection(_conStr))
         {
             connection.Open();
 

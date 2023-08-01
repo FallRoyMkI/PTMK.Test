@@ -27,7 +27,7 @@ public class Core
         Context context = new(ConnectionString);
         PersonMapper mapper = new();
         PersonRepository personRepository = new(context);
-        DatabaseManager = new(context);
+        DatabaseManager = new(context, ConnectionString);
         PersonManager = new(personRepository, mapper);
     }
 }

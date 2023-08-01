@@ -1,7 +1,6 @@
 ﻿using PTMK.Console;
 using PTMK.Models.Dtos;
 
-args = new[] { "5" };
 if (args.Length is 0)
 {
     Console.WriteLine("Не указаны аргументы, завершение работы.");

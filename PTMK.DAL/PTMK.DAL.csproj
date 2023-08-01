@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PTMK\PTMK.Contracts.csproj" />
+    <ProjectReference Include="..\PTMK.Contracts\PTMK.Contracts.csproj" />
   </ItemGroup>
 
 </Project>
