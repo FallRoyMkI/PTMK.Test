@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PTMK.Console", "PTMK.Console\PTMK.Console.csproj", "{4276D379-0F80-4E9D-B23F-BB4237760C44}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PTMK.DAL", "PTMK.DAL\PTMK.DAL.csproj", "{4358D486-819B-4794-86A2-46AC7ABC05B0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PTMK.Models", "PTMK.Models\PTMK.Models.csproj", "{03C18FBE-746A-4F99-A952-68371DCFCB74}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PTMK.Contracts", "PTMK\PTMK.Contracts.csproj", "{251419DD-8C39-48AC-8F2E-AFA4A8BFA4D5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PTMK.BLL", "PTMK.BLL\PTMK.BLL.csproj", "{C9E7373F-C266-48CA-BA5B-D62D9771A0A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PTMK.Mapper", "PTMK.Mapper\PTMK.Mapper.csproj", "{76BACE14-8DE2-4DB2-87D8-E61F2F8385D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4276D379-0F80-4E9D-B23F-BB4237760C44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4276D379-0F80-4E9D-B23F-BB4237760C44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4276D379-0F80-4E9D-B23F-BB4237760C44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4276D379-0F80-4E9D-B23F-BB4237760C44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4358D486-819B-4794-86A2-46AC7ABC05B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4358D486-819B-4794-86A2-46AC7ABC05B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4358D486-819B-4794-86A2-46AC7ABC05B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4358D486-819B-4794-86A2-46AC7ABC05B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03C18FBE-746A-4F99-A952-68371DCFCB74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03C18FBE-746A-4F99-A952-68371DCFCB74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03C18FBE-746A-4F99-A952-68371DCFCB74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03C18FBE-746A-4F99-A952-68371DCFCB74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{251419DD-8C39-48AC-8F2E-AFA4A8BFA4D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{251419DD-8C39-48AC-8F2E-AFA4A8BFA4D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{251419DD-8C39-48AC-8F2E-AFA4A8BFA4D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{251419DD-8C39-48AC-8F2E-AFA4A8BFA4D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9E7373F-C266-48CA-BA5B-D62D9771A0A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9E7373F-C266-48CA-BA5B-D62D9771A0A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9E7373F-C266-48CA-BA5B-D62D9771A0A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9E7373F-C266-48CA-BA5B-D62D9771A0A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76BACE14-8DE2-4DB2-87D8-E61F2F8385D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76BACE14-8DE2-4DB2-87D8-E61F2F8385D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76BACE14-8DE2-4DB2-87D8-E61F2F8385D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76BACE14-8DE2-4DB2-87D8-E61F2F8385D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3DF2FC15-3709-470F-A904-A16F523937FF}
+	EndGlobalSection
+EndGlobal
